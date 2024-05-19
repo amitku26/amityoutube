@@ -14,6 +14,7 @@ function App() {
         <Route path='/watch/:id' element={<Watch/>}/>
       </Routes>
     </BrowserRouter>
+    
   )
 }
 

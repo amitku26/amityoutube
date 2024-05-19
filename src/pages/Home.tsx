@@ -12,8 +12,6 @@ import { clearVideos } from "../store";
 
 
 function Home() {
-    const time = 5;
-    console.log(time);
 
 
     const dispatch = useAppDispatch();
@@ -44,11 +42,11 @@ function Home() {
                         next={()=> dispatch(getHomePageVideos(true))}
                         hasMore={videos.length <500}
                         loader={<Spinner/>}
-                        height={`100vh`}
+                        height={600}
                     >
                         <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
                             {videos.map((item:HomePageVideos)=>{
-                                return <Card data={item} key={item.videoId}/>
+                                return <Card data={item} key={item.videoId}/>;
                             })}
                         </div>
                     </InfiniteScroll>):(<Spinner />)}

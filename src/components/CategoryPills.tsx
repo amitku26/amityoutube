@@ -12,6 +12,7 @@ export default function CategoryPills({categories}: CategoryPillProps) {
                     {categories.map(category=>(                        
                     <Button variant="dark" className="py-1 px-3 rounded-lg whitespace-nowrap">{category}</Button>
                     ))}
+                    <Button>All</Button>
                 </div>
             </div>
         </>)

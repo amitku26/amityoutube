@@ -11,7 +11,7 @@ import { useState } from "react";
 import { FaArrowLeft } from "react-icons/fa";
 
 export default function Navbar() {
-    const [showFullWidth, setShowFullWidth] = useState(false);
+  const [showFullWidth, setShowFullWidth] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
@@ -55,6 +55,7 @@ export default function Navbar() {
               <input
                 type="text"
                 placeholder="Search"
+                // className="rounded-l-full border border-secondary-border shadow-inner shadow-secondary py-1 px-4 text-lg w-full focus:border-blue-500 outline-none"
                 className="bg-zinc-900 outline-none border-black px-4 py-1 w-full focus:border-blue-500"
                 value={searchTerm}
                 onChange={(e) => dispatch(changeSearchTerm(e.target.value))}
@@ -91,3 +92,4 @@ export default function Navbar() {
     </div>
   );
 }
+
