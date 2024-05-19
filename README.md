@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# aryanYoutube
+# amityoutube
 =======
 # React + TypeScript + Vite
 
