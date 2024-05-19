@@ -12,6 +12,8 @@ import { clearVideos } from "../store";
 
 
 function Home() {
+    const time = 5;
+    console.log(time);
 
 
     const dispatch = useAppDispatch();
