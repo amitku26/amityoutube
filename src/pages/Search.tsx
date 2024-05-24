@@ -36,17 +36,18 @@ function Search() {
             <div className="flex" style={{ height: "92.5vh" }}>
                 <Sidebar />
                 {videos.length ? (
-                    <div className="py-8 pl-8 flex flex-col gap-5 w-full">
+                    <div className="flex flex-col gap-5 w-full">
                         <InfiniteScroll
                             dataLength={videos.length}
                             next={() => dispatch(getSearchPageVideos(true))}
                             hasMore={videos.length < 500}
                             loader={<Spinner />}
-                            height={600}
+                            height={`100vh`}
                         >
+                            <div className=""></div>
                             {videos.map((item: HomePageVideos) => {
                             return(
-                            <div className="my-5">
+                            <div className="mb-5">
                               <SearchCard data={item} key={item.videoId} />
                             </div>
                             );

@@ -42,7 +42,7 @@ function Home() {
                         next={()=> dispatch(getHomePageVideos(true))}
                         hasMore={videos.length <500}
                         loader={<Spinner/>}
-                        height={600}
+                        height={`100vh`}
                     >
                         <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
                             {videos.map((item:HomePageVideos)=>{

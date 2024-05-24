@@ -11,7 +11,7 @@ export default function SearchCard({ data }: { data: HomePageVideos }) {
         <Link to={`/watch/${data.videoId}`}>
           <img
             src={data.videoThumbnail}
-            className="h-44 w-96"
+            className="md:h-44 h-40 w-96"
             alt="thumbnail"
           />
         </Link>

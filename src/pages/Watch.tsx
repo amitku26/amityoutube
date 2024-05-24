@@ -39,13 +39,13 @@ function Watch() {
             <Navbar />
           </div>
           <div className="flex w-full" style={{ height: "92.5vh" }}>
-            <div className="flex gap-y-10 gap-x-5 p-7 mx-20 mr-0 w-full overflow-auto">
+            <div className="flex flex-col md:flex-row md:p-7 md:mx-20 w-full md:overflow-auto overflow-x-hidden">
               <div style={{ maxWidth: "800px" }}>
                 <div>
                   <iframe src={`https://www.youtube.com/embed/${id}?autoplay=1`}
                     frameBorder="0"
-                    width="800"
-                    height="502"
+                    width="100%"
+                    height="100%"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     title="Youtube video player"
