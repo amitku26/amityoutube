@@ -39,7 +39,7 @@ function Watch() {
             <Navbar />
           </div>
           <div className="flex w-full" style={{ height: "92.5vh" }}>
-            <div className="flex flex-col md:flex-row md:p-7 md:mx-20 w-full md:overflow-auto overflow-x-hidden">
+            <div className="flex flex-col md:flex-row md:p-7 md:mx-30 w-full md:overflow-auto overflow-x-hidden">
               <div style={{ maxWidth: "800px" }}>
                 <div>
                   <iframe src={`https://www.youtube.com/embed/${id}?autoplay=1`}
@@ -92,10 +92,10 @@ function Watch() {
                           <img
                             src={currentPlaying.channelInfo.image}
                             alt=""
-                            className="rounded-full h-12 w-12"
+                            className="rounded-full h-12 w-35"
                           />
                         </div>
-                        <div className="w-5/6">
+                        <div className="w-5/9">
                           <h5 className="text-sm">
                             <strong>{currentPlaying.channelInfo.name}</strong>
                           </h5>
