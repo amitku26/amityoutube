@@ -42,6 +42,7 @@ function Watch() {
             <div className="flex flex-col md:flex-row md:p-7 md:mx-30 w-full md:overflow-auto overflow-x-hidden">
               <div style={{ maxWidth: "800px" }}>
                 <div>
+                
                   <iframe src={`https://www.youtube.com/embed/${id}?autoplay=1`}
                     frameBorder="0"
                     width="100%"
@@ -140,9 +141,10 @@ function Watch() {
                     return <WatchCard data={item} key={item.videoId} />;
                   })}
               </div>
+              </div>
             </div>
           </div>
-        </div>
+      
       )}
     </>
   );

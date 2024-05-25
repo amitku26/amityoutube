@@ -34,7 +34,9 @@ function Home() {
                 <Navbar />
             </div>
                 <div className="flex" style={{height: "92.5vh"}}>
+                    <div className="hidden md:flex">
                     <Sidebar />
+                    </div>
                     <div className="w-full">
                     {videos.length ? (
                     <InfiniteScroll 

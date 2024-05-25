@@ -34,7 +34,9 @@ function Search() {
                 <Navbar />
             </div>
             <div className="flex" style={{ height: "92.5vh" }}>
+                <div className="hidden md:flex">
                 <Sidebar />
+                </div>
                 {videos.length ? (
                     <div className="flex flex-col gap-5 w-full">
                         <InfiniteScroll
