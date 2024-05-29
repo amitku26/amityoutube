@@ -12,7 +12,7 @@ export default function WatchCard({ data }: { data: RecommendedVideos }) {
         <Link to={`/watch/${data.videoId}`}>
           <img
             src={data.videoThumbnail}
-            className="h-24 w-40"
+            className="h-24 w-35"
             alt="thumbnail"
           />
         </Link>

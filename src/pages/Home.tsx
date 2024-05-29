@@ -46,12 +46,12 @@ function Home() {
                         loader={<Spinner/>}
                         height={`100vh`}
                     >
-                        <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
+                        <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))] mx-5">
                             {videos.map((item:HomePageVideos)=>{
-                                return <Card data={item} key={item.videoId}/>;
+                                return <div className=""><Card data={item} key={item.videoId}/></div>;
                             })}
                         </div>
-                    </InfiniteScroll>):(<Spinner />)}
+                    </InfiniteScroll>) : (<Spinner />)}
                     </div>
                 </div>
             </div>

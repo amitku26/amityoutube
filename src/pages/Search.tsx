@@ -49,7 +49,7 @@ function Search() {
                             <div className=""></div>
                             {videos.map((item: HomePageVideos) => {
                             return(
-                            <div className="mb-5">
+                            <div className="my-5">
                               <SearchCard data={item} key={item.videoId} />
                             </div>
                             );
