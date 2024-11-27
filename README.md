@@ -7,5 +7,10 @@ An application that replicates the core features of the Youtube. Users can searc
 Live Website 
 __________________________________________________________________________________________________________________________________________________________________________________________________________
 You can view the web app here..
-  . Website Link: [YouTube](https://youtubeclonees.netlify.app)
+
+. Website Link: [YouTube](https://youtubeclonees.netlify.app)
+
+Home Page
+__________________________________________________________________________________________________________________________________________________________________________________________________________
+
 
