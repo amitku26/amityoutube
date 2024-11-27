@@ -21,10 +21,10 @@ You can view the web app here..
 ![image alt](https://github.com/amitku26/amityoutube/blob/0a5d8c5893c2244d29095714e5226663c0aea377/images/Search.png)
 
 ## Features
- - ## User can watch any video, he can search the content.
+ - ### User can watch any video, he can search the content.
 
 ## Technologies Used
-   - ## Frontend: React, ReduxToolkit, TailwindCSS
-   - ## API: Google Youtube API V3
-   - ## Deployment: Netlify
+   - ### Frontend: React, ReduxToolkit, TailwindCSS
+   - ### API: Google Youtube API V3
+   - ### Deployment: Netlify
 
